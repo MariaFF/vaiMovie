@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1028371894652",
+    "project_id": "vaimovie-1641747719198",
+    "storage_bucket": "vaimovie-1641747719198.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028371894652:android:cab5399d06982f436054f9",
+        "android_client_info": {
+          "package_name": "com.vaimovie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028371894652-527hv110blr2jnpafe55a3vpeuoq5rhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9O05bhdOPbplAhRtbSYYlUJVRiB47JQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028371894652-527hv110blr2jnpafe55a3vpeuoq5rhn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1028371894652-onrhff0c19ao2de6hc28qlatb8ctnd59.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.VaiMovie"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
