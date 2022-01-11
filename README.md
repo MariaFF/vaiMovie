@@ -1,32 +1,31 @@
 # vaiMovie
 
-Features
+### Features
+- List movies
+- Search movie
+- Favorite movie
 
-List of movies
-Search movies
-Favorite movies
+### Techs
 
+- React Navigation
+- React Vector Icons
+- Styled-Components
+- Axios
+- Redux
+- GoogleSignIn
 
-Techs
+### Run this project
 
-React Navigation
-React Vector Icons
-Styled-Components
-Axios
-Redux
-GoogleSignIn
+_Assuming that you have a configured environment_
 
-
-Run this project
-Assuming that you have a configured environment
-
-Install dependencies
+### Install dependencies
 yarn
 
-Start bundle
+### Start bundle
 yarn start
 
-Run the project on emulator
- - the project is configured for ios
-yarn ios
-So, thanks for the opportunity to take the test ✌
+### Run the project on emulator (the project is configured for ios)
+yarn android
+
+So, thanks for the opportunity to take the test :v:
+
