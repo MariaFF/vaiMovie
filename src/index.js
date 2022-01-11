@@ -14,8 +14,6 @@ const App = () => {
     webClientId: '1028371894652-sagd93becpdg4uviggcics6bj041734k.apps.googleusercontent.com'
   });
 
-  console.log('STORE', store);
-
   return (
     <NavigationContainer>
       <StatusBar barStyle="light-content" backgroundColor="#007EF2" />

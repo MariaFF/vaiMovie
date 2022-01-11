@@ -29,7 +29,6 @@ export const ContentListItem = styled.View`
 `;
 
 export const MovieName = styled.Text`
-  /* font-family: 'Poppins-SemiBold'; */
   font-size: 16px;
 `;
 
@@ -42,14 +41,12 @@ export const Favorite = styled(Pressable)`
 export const FavoriteText = styled.Text`
   font-size: 14px;
   color: #424242;
-  /* font-family: 'Poppins-Regular'; */
   margin-left: 4px;
 `;
 
 export const InfoText = styled.Text`
   font-size: 14px;
   color: #424242;
-  /* font-family: 'Poppins-Regular'; */
   margin-left: 4px;
 `;
 
@@ -72,7 +69,6 @@ export const InputContainer = styled.View`
 export const TextInput = styled.TextInput`
   flex: 1;
   color: #212121;
-  /* font-family: 'Poppins-SemiBold'; */
   font-size: 16px;
   padding: 0;
 `;

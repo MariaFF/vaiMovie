@@ -24,7 +24,6 @@ const SignUp = () => {
     try {
       await GoogleSignin.hasPlayServices();
       const userInfo = await GoogleSignin.signIn();
-      console.log('USER GOOGLE', userInfo);
       navigation.navigate('Home');
       // this.setState({ userInfo });
     } catch (error) {

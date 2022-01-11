@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Icon from 'react-native-vector-icons/Feather';
 import FavoriteIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 
+import * as MovieActions from '../../../store/ducks/favorites';
 import { fetchMoviesApi } from '../../../services/api';
 
 import { 
@@ -25,22 +26,23 @@ const Movies = () => {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchText, setSearchText] = useState('2022');
+  const favorites = useSelector(state => state.favorites.favorites);
   const dispatch = useDispatch();
   const navigation = useNavigation();
 
   useEffect(() => {
-    fetchMovies()
+    fetchMovies();
   }, [])
 
   async function fetchMovies() {
     setLoading(true);
     try {    
-      const response = await fetchMoviesApi({s: searchText, r: 'json'});
-      const arr = response.Search.map(movie => {
+      const response = await fetchMoviesApi({s: searchText});
+      const arrMapped = response.Search.map(movie => {
         return {...movie, favorite: false}
       }
       );
-      setMovies([...arr])
+      setMovies([...arrMapped])
       setMovies(response.Search);
       setLoading(false);
       
